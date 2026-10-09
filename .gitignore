@@ -1,0 +1,13 @@
+fold_secrets.json
+fold_secrets.json.tmp
+fold_login_qr.svg
+fold_export/
+*.ledger
+*.db
+.venv/
+__pycache__/
+fold_aliases.json
+.remember/
+*.svg
+report.html
+report.png

@@ -1,0 +1,11 @@
+{
+  "_help": "Copy to fold_aliases.json. Key = a lowercase substring matched in the counterparty/narration of a UPI/NEFT transaction; value = the friendly name + category to apply everywhere (summary, report, export, tax, compare, MCP). Run `./fold alias suggest` to auto-seed this file with your top uncategorized payees, then fill in the blanks.",
+  "exampleupivpa@okaxis": {
+    "name": "Landlord",
+    "category": "Rent"
+  },
+  "swiggy": {
+    "name": "Swiggy",
+    "category": "Food & Drinks"
+  }
+}

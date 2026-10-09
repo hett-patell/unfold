@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# fold — run fold_export.py via the project venv (falls back to system python3)
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PY="$DIR/.venv/bin/python"
+[ -x "$PY" ] || PY="$(command -v python3)"
+exec "$PY" "$DIR/fold_export.py" "$@"
