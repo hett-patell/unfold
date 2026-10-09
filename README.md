@@ -2,6 +2,14 @@
 
 # unfold
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/13b8c513-4227-4530-8944-040fe2a86b45"
+    alt="Unfold logo"
+    width="250"
+  />
+</p>
+
 ### Your [Fold.money](https://fold.money) data — unfolded.
 
 **Sync, analyze, export and *own* your Fold account data. Locally. Offline. Privately.**
